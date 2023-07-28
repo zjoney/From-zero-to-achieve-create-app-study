@@ -7,7 +7,7 @@
 
 ### 1.1 下载
 
-```
+```js
 git clone https://github.com/facebook/create-react-app.git --depth=1
 cd create-react-app
 yarn install
