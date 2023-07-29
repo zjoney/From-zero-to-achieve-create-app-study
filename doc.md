@@ -17,7 +17,7 @@ yarn install
 
 package.json
 
-```
+```js
 "scripts": {
 +  "create": "node ./packages/create-react-app/index.js",
 }
