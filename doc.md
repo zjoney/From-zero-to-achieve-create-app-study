@@ -27,7 +27,7 @@ package.json
 
 -   将命令行参数发送到npm脚本 `npm run [command] [-- <args>]`
 
-    ```
+    ```js
     yarn install  #安装项止依赖和软链接
     npm run create -- aaa  #执行创建命令
     Installing packages. This might take a couple of minutes. #安装依赖包
