@@ -72,7 +72,7 @@ package.json
 
 package.json
 
-```
+```js
   "scripts": {
 +    "version": "node ./packages/create-react-app3/index.js --version",
 +    "create": "node ./packages/create-react-app3/index.js aaa"
