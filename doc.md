@@ -83,7 +83,7 @@ package.json
 
 packages\create-react-app3\package.json
 
-```
+```js
 {
 + "main": "./index.js"
 }
