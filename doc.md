@@ -93,7 +93,7 @@ packages\create-react-app3\package.json
 
 packages\create-react-app3\index.js
 
-```
+```js
 #!/usr/bin/env node
 const { init } = require('./createReactApp');
 init();
