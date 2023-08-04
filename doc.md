@@ -103,7 +103,7 @@ init();
 
 packages\create-react-app3\createReactApp.js
 
-```
+```js
 const {Command} = require('commander');
 const chalk = require('chalk');
 const packageJson = require('./package.json');
