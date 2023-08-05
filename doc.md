@@ -126,7 +126,7 @@ module.exports = {
 
 ### 2.5 执行命令
 
-```
+```js
 npm run create
 ```
 
@@ -136,7 +136,7 @@ npm run create
 
 packages\create-react-app3\createReactApp.js
 
-```
+```js
 const {Command} = require('commander');
 const chalk = require('chalk');
 +const fs = require('fs-extra');
