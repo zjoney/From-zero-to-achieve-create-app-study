@@ -185,7 +185,7 @@ module.exports = {
 
 packages\create-react-app3\createReactApp.js
 
-```
+```js
 const {Command} = require('commander');
 const chalk = require('chalk');
 const fs = require('fs-extra');
@@ -274,7 +274,7 @@ yarnpkg add --exact react react-dom react-scripts cra-template --cwd C:\aprepare
 
 packages\create-react-app3\createReactApp.js
 
-```
+```js
 const {Command} = require('commander');
 const chalk = require('chalk');
 const fs = require('fs-extra');
