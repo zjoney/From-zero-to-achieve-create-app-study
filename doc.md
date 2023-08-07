@@ -373,13 +373,13 @@ module.exports = {
 
 ### 1.1 安装
 
-```
+```js
 npm i lerna -g
 ```
 
 ### 1.2 初始化
 
-```
+```js
 lerna init
 ```
 
