@@ -389,7 +389,7 @@ lerna init
 
 package.json
 
-```
+```js
 {
   "name": "root",
   "private": true,
