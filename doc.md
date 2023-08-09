@@ -403,7 +403,7 @@ package.json
 
 lerna.json
 
-```
+```js
 {
   "packages": [
     "packages/*"
