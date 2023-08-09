@@ -423,7 +423,7 @@ lerna.json
 
 package.json
 
-```
+```js
 {
   "name": "root",
   "private": true, // 私有的,用来管理整个项目,不会被发布到npm
@@ -438,7 +438,7 @@ package.json
 
 #### 1.3.2 创建子项目
 
-```
+```js
 lerna create create-react-app3
 lerna create react-scripts3
 lerna create cra-template3
