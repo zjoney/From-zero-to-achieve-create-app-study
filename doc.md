@@ -453,7 +453,7 @@ lerna create cra-template3
 
 设置加速镜像
 
-```
+```js
 yarn config get registry
 yarn config set registry http://registry.npm.taobao.org/
 yarn config set registry http://registry.npmjs.org/
@@ -478,7 +478,7 @@ yarn config set registry http://registry.npmjs.org/
 -   通过.arguments可以为最顶层命令指定参数，对子命令而言，参数都包括在.command调用之中了。尖括号（例如）意味着必选，而方括号（例如[optional]）则代表可选
 -   通过`usage`选项可以修改帮助信息的首行提示
 
-```
+```js
 const chalk = require('chalk');
 const {Command} = require('commander');
 console.log('process.argv',process.argv);
