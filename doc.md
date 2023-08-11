@@ -497,7 +497,7 @@ new Command('create-react-app')
 -   [cross-spawn](https://www.npmjs.com/package/cross-spawn)是node的`spawn`和`spawnSync`的跨平台解决方案
 -   [inherit](https://nodejs.org/dist/latest-v15.x/docs/api/child_process.html)表示将相应的`stdio`流传给父进程或从父进程传入
 
-```
+```js
 const spawn = require('cross-spawn');
 const child = spawn('node', ['script.js','one','two','three'], { stdio: 'inherit' });
 child.on('close',()=>{
